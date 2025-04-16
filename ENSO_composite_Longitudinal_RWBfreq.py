@@ -3,6 +3,13 @@
 Created on Wed Apr  9 13:25:38 2025
 
 @author: lenovo
+
+This code lets you plot the longitudinal distribution of Rossby breaking events along a fixed latitude band
+Input file: The .nc file you get after running the Wavebreaking algorithm (Temporal resolution: Daily, Spatial resolution: 1 degree)
+Output: A decently goodlooking line plot with RWB occurence fequency on y-axis, longitudes on x-axis
+        Red line: indicates the rossby wave breaking events during Elnino period (El Nino composite of RWB events)
+        Blue Line: indicates the rossby wave breaking events during LaNina period (La nina composite of RWB events)
+        Grey Line: indicates the rossby wave breaking events during Neutral ENSO period (Neutral composite of RWB events)
 """
 
 #### Longitudinal distribution ENSO composite RWB events ############
